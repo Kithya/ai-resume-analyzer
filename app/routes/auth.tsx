@@ -2,12 +2,10 @@ import React, { useEffect } from "react";
 import { useLocation, useNavigate } from "react-router";
 import { usePuterStore } from "~/lib/puter";
 
-export const meta = () => {
-  [
-    { title: "CVision AI | Auth" },
-    { name: "description", content: "Log into your account" },
-  ];
-};
+export const meta = () => [
+  { title: "CVision AI | Auth" },
+  { name: "description", content: "Log into your account" },
+];
 
 const Auth = () => {
   const { isLoading, auth } = usePuterStore();
