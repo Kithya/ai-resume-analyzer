@@ -22,7 +22,7 @@ const ResumeCard = ({
   }, [imagePath]);
   return (
     <Link
-      to={`/resumes/${id}`}
+      to={`/resume/${id}`}
       className="resume-card animate-in fade-in duration-300"
     >
       <div className="resume-card-header">
